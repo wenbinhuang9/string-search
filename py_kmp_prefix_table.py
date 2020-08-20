@@ -7,6 +7,7 @@ j = 0
 i = 1
 prefix = [0]
 
+## go through this algorithm  right now ! make it done !
 while len(prefix) < l1:
     if p[j] == p[i]:
         prefix.append(j+1)
